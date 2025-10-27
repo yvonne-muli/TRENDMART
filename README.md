@@ -150,17 +150,17 @@ VALUES
 ```
 
 - The Tables should look like this in Supabase:
-authors
-<img width="1893" height="476" alt="image" src="https://github.com/user-attachments/assets/9a89f3ae-77d1-4ed2-a5c5-140db1e7e27b" />
+Customers`
+<img width="897" height="597" alt="image" src="https://github.com/user-attachments/assets/7c270c27-96f3-47d4-81de-a1982c5e1a4b" />
 
-books:
-<img width="1881" height="445" alt="image" src="https://github.com/user-attachments/assets/d741319f-a0ff-416c-b50f-34c315c9af24" />
 
-customers:
-<img width="1881" height="505" alt="image" src="https://github.com/user-attachments/assets/354752e6-fa32-4aa8-a28f-bf99f98039f2" />
+products:
+<img width="811" height="675" alt="image" src="https://github.com/user-attachments/assets/1d2a05bd-fc79-40ae-a4ef-1ee3c74ea374" />
+ 
 
-orders:
-<img width="1902" height="517" alt="image" src="https://github.com/user-attachments/assets/fe99a68a-8950-4d87-82c1-25dcd3217a65" />
+sales:
+<img width="1098" height="592" alt="image" src="https://github.com/user-attachments/assets/f9b80c0e-bc5b-4617-9668-be16d91c5b68" />
+
 
 - The ERD screenshot from Supabase looks like this: 
 <img width="1064" height="577" alt="image" src="https://github.com/user-attachments/assets/4b8a39b1-ff20-4bd3-be6f-f662b35ae49f" />
@@ -168,29 +168,28 @@ orders:
 - To test the table, I used two queries: 
 
 ```sql
-SELECT * FROM orders
-WHERE name = "Nadine Gordimer"
+SELECT * FROM Customers
+WHERE customer_name = 'yvonne'
 ````
 
 ```sql
-SELECT * FROM books
-WHERE in_stock = "TRUE"
+SELECT * FROM products
+WHERE price>10000
 ````
 
 - Here are the results of the queries:
-<img width="1460" height="791" alt="image" src="https://github.com/user-attachments/assets/37cf0a4e-ca92-4d8d-8888-2cca0165d32b" />
+<img width="880" height="371" alt="image" src="https://github.com/user-attachments/assets/c056586f-e856-4e2c-a865-0b92a0334ba3" />
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<img width="772" height="653" alt="image" src="https://github.com/user-attachments/assets/32393225-35ff-420b-b5b4-e115d6f48577" />
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Joy Phoebe**
+👤 **yvonne muli**
 
-- GitHub: [@joyapisi](https://github.com/joyapisi)
-- Twitter: [@joyphoebe300](https://twitter.com/joyphoebe300)
-- LinkedIn: [@joyapisi](https://linkedin.com/in/joyapisi)
+- GitHub: [@yvonne-muli(https://github.com/yvonnemuli)
+- LinkedIn: [@yvonnemulii](https://linkedin.com/in/joyapisi)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
