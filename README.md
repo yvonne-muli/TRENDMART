@@ -24,7 +24,7 @@
 
 # 📖 My SQL Project <a name="about-project"></a>
 
-**My SQL Project** is a simple Database that uses SQL, Postgres via Supabase and R to create, query and secure a **Bookstore** database.
+**My SQL Project** is a simple Database that uses SQL, Postgres via Supabase and R to create, query and secure a **Trendmart** database.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -73,78 +73,12 @@ Clone this repository to your desired folder:
 
 ### DB Schema
 
-- The DB is made up of 3 tables. Eaach table has 5 entries.
+- The DB is made up of 3 tables. Eaach table has 10 entries.
 - To create the table, you will need a schema as shown below:
 
 ```sql
--- Drop old tables if they exist
-DROP TABLE IF EXISTS orders CASCADE;
-DROP TABLE IF EXISTS customers CASCADE;
-DROP TABLE IF EXISTS books CASCADE;
-DROP TABLE IF EXISTS authors CASCADE;
 
--- Create authors table
-CREATE TABLE authors (
-  id SERIAL PRIMARY KEY,
-  name TEXT NOT NULL,
-  country TEXT
-);
-
--- Create books table
-CREATE TABLE books (
-  id SERIAL PRIMARY KEY,
-  title TEXT NOT NULL,
-  author_id INT REFERENCES authors(id),
-  price NUMERIC(8,2),
-  in_stock BOOLEAN DEFAULT true
-);
-
--- Create customers table
-CREATE TABLE customers (
-  id SERIAL PRIMARY KEY,
-  full_name TEXT NOT NULL,
-  email TEXT UNIQUE NOT NULL
-);
-
--- Create orders table
-CREATE TABLE orders (
-  id SERIAL PRIMARY KEY,
-  customer_id INT REFERENCES customers(id),
-  book_id INT REFERENCES books(id),
-  order_date TIMESTAMP DEFAULT now()
-);
-
--- Insert sample authors (5 rows)
-INSERT INTO authors (name, country) VALUES
-  ('Chinua Achebe', 'Nigeria'),
-  ('Ngũgĩ wa Thiong\'o', 'Kenya'),
-  ('Wole Soyinka', 'Nigeria'),
-  ('Nadine Gordimer', 'South Africa'),
-  ('Binyavanga Wainaina', 'Kenya');
-
--- Insert sample books (5 rows)
-INSERT INTO books (title, author_id, price, in_stock) VALUES
-  ('Things Fall Apart', 1, 1200.00, true),
-  ('Petals of Blood', 2, 1500.00, true),
-  ('Death and the King\'s Horseman', 3, 1800.00, true),
-  ('July\'s People', 4, 1300.00, false),
-  ('One Day I Will Write About This Place', 5, 1600.00, true);
-
--- Insert sample customers (5 rows)
-INSERT INTO customers (full_name, email) VALUES
-  ('Joy Phoebe', 'joy@example.com'),
-  ('Brian Otieno', 'brian@example.com'),
-  ('Aisha Ali', 'aisha@example.com'),
-  ('Peter Mwangi', 'peter@example.com'),
-  ('Grace Wanjiku', 'grace@example.com');
-
--- Insert sample orders (5 rows)
-INSERT INTO orders (customer_id, book_id) VALUES
-  (1, 1),
-  (1, 2),
-  (2, 3),
-  (3, 4),
-  (4, 5);
+-- 
 ```
 
 - The Tables should look like this in Supabase:
