@@ -29,12 +29,15 @@ Purpose; Stores information about products in the mart
 |product_name|VARCHAR|NOT NULL|Name of the products|
 |category|VARCHAR|NOT NULL|Shows the category of the products|
 |price|INTEGER|NOT NULL|Shows the price of each product|
-|stock_quantity|INTEGER|Shows the amount of stock in the mart|
+|stock_quantity|INTEGER|NOT NULL|Shows the amount of stock in the mart|
 
 ---
 
 ### 3.Sales
 Purpose;stores information about sales made
+
+|column name|data type|constraints|description|
+|-----------|---------|-----------|------------|
 |sale_id|SERIAL|PRIMARY KEY|Unique identifier for sale made|
 |customer_id|INTEGER|NOT NULL|shows the customer that made purchase|
 |product_id|INTEGER|NOT NULL|Identifies the product purchased|
