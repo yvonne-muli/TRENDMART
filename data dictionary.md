@@ -1,11 +1,11 @@
-#Data dictionary-trendmart management system
+# Data dictionary-trendmart management system
 
-##Overview
+## Overview
 This database explains all tables,columns and relationships in the trendmart database built using supabase(PostgreSql)
 
 ```
 
-##Tables
+## Tables
 
 ###1.Students
 Purpose;Stores information on customers who have made purchases in the mart
