@@ -22,6 +22,9 @@ Purpose;Stores information on customers who have made purchases in the mart
 
 ### 2.Products
 Purpose; Stores information about products in the mart
+
+|column name|data type|constraints|description|
+|-----------|---------|-----------|-----------|
 |product_id|SERIAL|PRIMARY KEY|Unique identifier for each product|
 |product_name|VARCHAR|NOT NULL|Name of the products|
 |category|VARCHAR|NOT NULL|Shows the category of the products|
