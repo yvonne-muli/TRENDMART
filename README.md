@@ -163,7 +163,8 @@ sales:
 
 
 - The ERD screenshot from Supabase looks like this: 
-<img width="1209" height="778" alt="image" src="https://github.com/user-attachments/assets/ceee503d-450c-4625-9f0e-2d32cf390248" />
+<img width="1200" height="603" alt="image" src="https://github.com/user-attachments/assets/0f98d19e-f673-432f-8e40-8608df276254" />
+
 
 - To test the table, I used two queries: 
 
