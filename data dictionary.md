@@ -48,18 +48,18 @@ Purpose;stores information about sales made
 
 ---
 ## Relationships
-1Customer to sales
+1.Customer to sales
 
 one to many relationship, customers.customer.id-sales.customer.id
 Each customer can have many sales
 
-2products to sales
+2.products to sales
 
 one to many,products.product.id-sales.product.id
 Each product can appear in multiple sales
 
 
-3Sales to customers and products
+3.Sales to customers and products
 
 Many to one relationship,sales.product.id-customers.product.id-products.product.id
 Each sale is linked to one customer and one product
