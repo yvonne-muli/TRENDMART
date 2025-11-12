@@ -49,9 +49,10 @@ LIMIT 5;
 ~~~
 **INSIGHTS**
 The best selling product is a shirt followed by a blender,other electronics and oil follow.
-This ,ix of fashion ,electronics and household items suggests that trendmart customers purchase across multiple categories
+This mix of fashion ,electronics and household items suggests that trendmart customers purchase across multiple categories
 
 Reccpmendations
+
 Increase fast moving objects like shirts and blenders
 
 
