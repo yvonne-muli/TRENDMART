@@ -33,6 +33,7 @@ CREATE table sales (
 );
 
 #The Erd below shows how this tables are connected
+<img width="1200" height="603" alt="image" src="https://github.com/user-attachments/assets/0f98d19e-f673-432f-8e40-8608df276254" />
 
 
 
