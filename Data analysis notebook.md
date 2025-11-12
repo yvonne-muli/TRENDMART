@@ -32,8 +32,11 @@ CREATE table sales (
   payment_method VARCHAR
 );
 ~~~
-#The Erd below shows how this tables are connected
+The Erd below shows how this tables are connected
 <img width="1200" height="603" alt="image" src="https://github.com/user-attachments/assets/0f98d19e-f673-432f-8e40-8608df276254" />
+
+### 3. SQL QUERIES AND ANALYSIS
+
 
 
 
