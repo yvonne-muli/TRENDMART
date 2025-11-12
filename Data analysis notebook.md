@@ -3,7 +3,7 @@ This project explores customer, product, and sales data from the TrendMart datab
 
 The analysis uses SQL queries executed in Supabase and focuses on descriptive analytics.
 
-** 1 Data base shema
+## 1. Data base shema
 ~~~
 CREATE table  Customers (
   customer_id INT,
