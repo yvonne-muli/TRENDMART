@@ -1,3 +1,4 @@
-# Trendmart Sales Analysis
-This prooject explores customer,product and sales data from the trendmart database to identify key business trends such as top perfoming products,monthly sales patterns etc
-The analysis uses sql queries executed on supabase and focuses on descriptive analysis
+# TrendMart Sales Analysis
+This project explores customer, product, and sales data from the TrendMart database to identify key business trends such as top-performing products, regional sales performance, and monthly sales patterns.
+
+The analysis uses SQL queries executed in Supabase and focuses on descriptive analytics.
