@@ -31,3 +31,11 @@ CREATE table sales (
   sale_date DATE,
   payment_method VARCHAR
 );
+
+#The Erd below shows how this tables are connected
+
+
+
+
+
+
