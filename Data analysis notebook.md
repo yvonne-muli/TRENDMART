@@ -56,6 +56,7 @@ RECCOMMENDATIONS
 
 Increase fast moving objects like shirts and blenders
 
+
 B)Payment Method Analysis
 
 ~~~
