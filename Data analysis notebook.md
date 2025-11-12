@@ -56,6 +56,23 @@ RECCOMMENDATIONS
 
 Increase fast moving objects like shirts and blenders
 
+B)Payment Method Analysis
+
+~~~
+SELECT payment_method,
+       COUNT(sale_id) AS total_transactions,
+       SUM(total_amount) AS total_revenue
+FROM sales
+GROUP BY payment_method
+ORDER BY total_revenue DESC
+~~~
+**INSIGHTS**
+Mpesa is the most commmonly used payment method,contributing the highest number of transactions and total revenue
+
+**RECOMMENDATIONS**
+
+Trendmart should focus on mobile friendly markrting and explore mpesa based loyalty rewards to boost repeat purchases
+
 
 
 
