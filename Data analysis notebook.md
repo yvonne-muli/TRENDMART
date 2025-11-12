@@ -40,6 +40,19 @@ The Erd below shows how this tables are connected
 ### 3. SQL QUERIES AND ANALYSIS
 
 A)TOP 5 BEST SELLING PRODUCTS
+~~~
+SELECT products.product_name,sales.quantity_sold
+FROM products JOIN sales
+ON products.product_id = sales.product_id
+ORDER BY quantity_sold DESC
+LIMIT 5;
+~~~
+**INSIGHTS**
+The best selling product is a shirt followed by a blender,other electronics and oil follow.
+This ,ix of fashion ,electronics and household items suggests that trendmart customers purchase across multiple categories
+
+Reccpmendations
+Increase fast moving objects like shirts and blenders
 
 
 
